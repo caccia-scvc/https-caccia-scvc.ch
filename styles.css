@@ -23,7 +23,7 @@ header .container {
 }
 
 .logo {
-    width: 100px; /* Adjust the width as needed */
+    width: 120px; /* Adjust the width as needed */
     height: auto;
     margin-right: 20px;
 }
@@ -31,7 +31,7 @@ header .container {
 h1 {
     font-size: 24px;
     margin: 0;
-    font-weight: bold;
+    font-weight: 300; /* Make the title font slimmer */
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 300; /* Make the section buttons font slimmer */
 }
 
 main .container {
@@ -60,6 +60,7 @@ main .container {
 main h2 {
     font-size: 22px;
     color: #4B382A;
+    font-weight: 300; /* Make the main section headings font slimmer */
 }
 
 footer {
