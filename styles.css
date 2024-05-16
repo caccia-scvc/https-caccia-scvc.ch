@@ -13,62 +13,63 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin: auto;
 }
 
-header .logo {
-    width: 50px;
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
     height: auto;
     margin-right: 20px;
 }
 
-header h1 {
+h1 {
+    font-size: 24px;
     margin: 0;
-    flex-grow: 1;
+    font-weight: bold;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 10px 0 0;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-    background-color: #6C5A45;
-    border-radius: 5px;
+main .container {
+    padding: 20px;
 }
 
-main {
-    padding: 20px 0;
+main h2 {
+    font-size: 22px;
+    color: #4B382A;
 }
 
-section {
-    padding: 40px 0;
-    background-color: #fff;
-    margin-bottom: 20px;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-h2 {
-    margin-top: 0;
+footer {
+    background-color: #4B382A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 form {
@@ -78,43 +79,28 @@ form {
 
 form label {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 form input, form textarea {
     padding: 10px;
     margin-top: 5px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
 }
 
 form button {
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
     background-color: #4B382A;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #6C5A45;
-}
-
-footer {
-    background-color: #4B382A;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+    background-color: #3a2c21;
 }
