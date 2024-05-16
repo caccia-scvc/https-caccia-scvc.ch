@@ -3,28 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
+    <title>Caccia SCVC</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <h1>Società Cacciatori Valli del Cassarate</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Galleria</a></li>
+                    <li><a href="#contact">Contatto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>This is the homepage of my website. Here, you can find information about me and my work.</p>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Caccia SCVC</h2>
+                <p>Your trusted source for all things hunting-related.</p>
+                <img src="hero.jpg" alt="Hero Image">
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Information about Caccia SCVC and our mission.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>Details about the services we offer.</p>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container">
+                <h2>Galleria</h2>
+                <p>Check out our photo gallery.</p>
+                <!-- Add images here -->
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contatto</h2>
+                <form action="#" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <div class="container">
+            <p>&copy; 2024 Società Cacciatori Valli del Cassarate. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
